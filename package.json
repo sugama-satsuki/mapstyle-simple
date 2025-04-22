@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@unvt/charites": "^2.1.0"
+  },
+  "dependencies": {
+    "sharp": "^0.34.1"
+  }
+}

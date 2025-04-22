@@ -1,0 +1,7 @@
+id: 等深線
+type: line
+source: gsi
+source-layer: Isbt
+paint:
+  line-color: rgb(135,137,142)
+  line-width: 1

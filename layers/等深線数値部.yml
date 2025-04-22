@@ -1,0 +1,27 @@
+id: 等深線数値部
+type: symbol
+source: gsi
+source-layer: Isbt
+filter:
+  - '=='
+  - - get
+    - vt_code
+  - 7372
+layout:
+  symbol-z-order: viewport-y
+  text-allow-overlap: true
+  text-ignore-placement: true
+  symbol-placement: line-center
+  text-pitch-alignment: viewport
+  text-rotation-alignment: map
+  text-size: 13
+  text-font:
+    - NotoSansJP-Regular
+  text-max-angle: 360
+  text-field:
+    - get
+    - vt_depth
+paint:
+  text-color: rgba(135,137,142,1)
+  text-halo-color: rgba(255,255,255,1)
+  text-halo-width: 1

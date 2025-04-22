@@ -1,0 +1,17 @@
+id: 水部表記線point
+type: symbol
+source: gsi
+source-layer: WRltLine
+filter:
+  - '=='
+  - - geometry-type
+  - Point
+layout:
+  icon-allow-overlap: true
+  icon-image: gsi:流水方向
+  icon-size: 1.2
+  icon-rotate:
+    - get
+    - vt_angle
+  icon-rotation-alignment: map
+  symbol-z-order: viewport-y

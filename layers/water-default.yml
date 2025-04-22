@@ -1,0 +1,8 @@
+id: water-default
+maxzoom: 17
+type: fill
+source: gsi
+source-layer: WA
+paint:
+  fill-color: rgba(175,221,250,1)
+  fill-opacity: 1
