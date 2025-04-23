@@ -45,14 +45,14 @@ paint:
     - - get
       - vt_rtcode
     - 地下鉄
-    - rgba(244,19,90,1)
+    - rgba(255,102,102,1)
     - - case
       - - '=='
         - - get
           - vt_sngldbl
         - 駅部分
-      - rgb(240, 40, 40)
-      - rgb(31,92,153)
+      - rgba(255,102,102,1)
+      - rgba(136,204,122,1)
   line-opacity:
     - case
     - - '=='
@@ -65,8 +65,8 @@ paint:
         - - get
           - vt_railstate
         - 雪覆い
-      - 0.75
-      - 0.5
+      - 1
+      - 1
   line-width:
     - let
     - width
@@ -76,26 +76,26 @@ paint:
           - - get
             - vt_sngldbl
           - 駅部分
-        - 800
+        - 8
         - 0
       - - '*'
         - - match
           - - get
             - vt_rtcode
           - JR
-          - 600
+          - 3
           - JR以外
-          - 600
+          - 1
           - 地下鉄
-          - 5
+          - 3
           - 路面
-          - 400
+          - 3
           - 索道
-          - 400
+          - 3
           - 特殊鉄道
-          - 300
+          - 3
           - 側線
-          - 300
+          - 3
           - 0
         - - case
           - - in
